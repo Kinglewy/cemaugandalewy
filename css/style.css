@@ -446,3 +446,34 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+.pdf-preview-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    width: 300px;
+    margin: 40px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .pdf-preview-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .pdf-preview-container button {
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .pdf-preview-container button:hover {
+    background-color: #1b5e20;
+  }
