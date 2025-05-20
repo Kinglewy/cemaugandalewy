@@ -477,3 +477,32 @@
   .pdf-preview-container button:hover {
     background-color: #1b5e20;
   }
+  .news-article {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .news-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-title:hover {
+    text-decoration: underline;
+  }
+  
+  .news-content {
+    display: none;
+    margin-top: 0.5rem;
+  }
+  
+  .news-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+  }
+  
