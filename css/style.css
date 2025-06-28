@@ -505,4 +505,36 @@
     height: auto;
     margin: 0.5rem 0;
   }
+  .partner-logo {
+    height: 60px;
+    margin: 0 20px;
+    vertical-align: middle;
+  }
+  
+  .partner-section {
+    padding: 50px 0;
+    background: #ffffff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    animation: scroll 50s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
   
