@@ -211,7 +211,7 @@ Prosper Mulindwa, the Mayor of Rubavu District who welcomed the returnees at Gra
 "Take part in national programmes," Mulindwa told the group, which was transported to the Nyarushishi Transit Canp in Rusizi District, where they will be supported to reintegrate into the community.
 "The country is safe and your communities will receive you with no divisionism. And most importantly your children will go back to school after being discharged from the Nyarushishi Transit Camp. You will obtain official documents, including ID cards and any other necessary support."</p>`,
             url: "https://cemauganda.org/news/articles/rwanda-authorities"
-        }
+        },
         5: {
             title: "Congo-Kinshasa: Congolese Escaping the M23 Conflict Face New Hardships in Burundi",
             image: "img/congo.jpg",
