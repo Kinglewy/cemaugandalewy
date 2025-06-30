@@ -557,31 +557,50 @@
         }
 
         /* Fullscreen Overlay */
-        .fullscreen-overlay {
-            position: fixed;
-            top: 30;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: white;
-            z-index: 1000;
-            padding: 40px;
-            overflow-y: auto;
-            display: none;
-        }
+        /* Fullscreen Overlay Styles */
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 1000;
+    padding: 0; /* Changed from 40px to 0 to remove padding */
+    overflow-y: auto;
+    display: none;
+}
 
-        .fullscreen-content {
-            max-width: 100px;
-            margin: 0 auto;
-        }
+.fullscreen-content {
+    max-width: 100%; /* Changed from 800px to 100% */
+    margin: 0; /* Changed from auto to 0 */
+    padding: 20px; /* Added padding to content instead of container */
+    height: 100vh; /* Make it fill the viewport height */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
 
-        .fullscreen-image {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
+.close-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Optional: Adjust image sizing for full width */
+.fullscreen-image {
+    width: 100%;
+    max-height: 50vh; /* Adjust as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
 
         .fullscreen-title {
             font-size: 28px;
