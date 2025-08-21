@@ -758,4 +758,10 @@
       transform: translateX(-100%);
     }
   }
+  /* Reduce spacing after each section */
+.container-xxl, .container, .container-fluid {
+    margin-bottom: 20px !important; /* Adjust as needed */
+    padding-bottom: 20px !important; /* Adjust as needed */
+}
+
   
