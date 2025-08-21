@@ -763,5 +763,8 @@
     margin-bottom: 20px !important; /* Adjust as needed */
     padding-bottom: 20px !important; /* Adjust as needed */
 }
+    .container-xxl, .container, .container-fluid {
+        padding: 0 15px; /* Ensure consistent padding */
+    }
 
   
