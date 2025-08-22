@@ -758,13 +758,13 @@
       transform: translateX(-100%);
     }
   }
-  /* Reduce spacing after each section */
-.container-xxl, .container, .container-fluid {
-    margin-bottom: 20px !important; /* Adjust as needed */
-    padding-bottom: 20px !important; /* Adjust as needed */
+/* Reduce space between About and Services */
+.container-xxl.py-5,
+.container-xxl.my-5 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
-    .container-xxl, .container, .container-fluid {
-        padding: 0 15px; /* Ensure consistent padding */
-    }
 
   
