@@ -333,7 +333,7 @@
 @media (min-width: 992px) {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
-        width: 100px;
+        width: 300px;
     }
 }
 
@@ -375,7 +375,7 @@
 }
 
 .testimonial-carousel:hover .owl-nav {
-    width: 100px;
+    width: 300px;
     opacity: 1;
 }
 
@@ -449,7 +449,7 @@
     padding: 30px;
     background-color: #f9f9f9;
     border-radius: 16px;
-    width: 100px;
+    width: 300px;
     margin: 40px auto;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   }
