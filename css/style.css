@@ -13,7 +13,180 @@
     bottom: 30px;
     z-index: 99;
 }
-
+/* =========================
+   RESET & BASE STYLES
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* =========================
+     CONTAINER SYSTEM
+  ========================= */
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  /* =========================
+     TYPOGRAPHY
+  ========================= */
+  h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* =========================
+     IMAGES (FIX OVERFLOW)
+  ========================= */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+  }
+  
+  /* =========================
+     BUTTONS (MOBILE FRIENDLY)
+  ========================= */
+  .btn {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 16px;
+    background: #2e7d32;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    min-height: 48px;
+  }
+  
+  .btn:hover {
+    background: #256628;
+  }
+  
+  /* =========================
+     FLEX UTILITIES
+  ========================= */
+  .flex {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  /* =========================
+     GRID SYSTEM
+  ========================= */
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  /* MOBILE DEFAULT (1 COLUMN) */
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* =========================
+     CARDS
+  ========================= */
+  .card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  /* =========================
+     NAVBAR (MOBILE FIRST)
+  ========================= */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* HAMBURGER BUTTON */
+  .menu-toggle {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  /* ACTIVE MENU */
+  .nav-active {
+    display: flex;
+  }
+  
+  /* =========================
+     SECTIONS
+  ========================= */
+  .section {
+    padding: 40px 0;
+  }
+  
+  /* =========================
+     FORMS
+  ========================= */
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* =========================
+     FOOTER
+  ========================= */
+  .footer {
+    background: #222;
+    color: #fff;
+    padding: 30px 15px;
+    text-align: center;
+  }
 
 /*** Spinner ***/
 #spinner {
@@ -335,7 +508,7 @@
 @media (min-width: 992px) {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
-        width: 300px;
+        width: 100px;
     }
 }
 
@@ -377,7 +550,7 @@
 }
 
 .testimonial-carousel:hover .owl-nav {
-    width: 300px;
+    width: 100px;
     opacity: 1;
 }
 
@@ -451,7 +624,7 @@
     padding: 30px;
     background-color: #f9f9f9;
     border-radius: 16px;
-    width: 300px;
+    width: 100px;
     margin: 40px auto;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   }
