@@ -77,7 +77,17 @@
 
 .top-bar {
     height: 45px;
+    background-color: #0080FE;
+    forced-color-adjust: #fff;
+    padding: 12px 0;
+    font-size: 20px
+    color: #FFFFFF;
     border-bottom: 1px solid rgba(255, 255, 255, .07);
+}
+
+.top-bar .col-lg-6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navbar .dropdown-toggle::after {
